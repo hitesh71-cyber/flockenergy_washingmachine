@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Large generated data caches (over GitHub recommended sizes)
+# The pipeline scripts automatically regenerate these from REFIT
+data/House1_1min.csv
+data/House2_1min.csv
+data/House3_1min.csv
+data/House5_1min.csv
+
+# Keep sample data for quick demonstration
+!data/House1_cleaned_1min_sample.csv
+
+# OS specific files
+.DS_Store
+Thumbs.db

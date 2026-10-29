@@ -1,0 +1,5 @@
+Household,WM Channel,Start Date,End Date,Total Days,Missing / NaN (%),Standby / Off (%),Active Time (%),Detected Cycles,Cycles/Week,Median Duration (min),Median Peak Power (W),Median Energy (Wh)
+House 1,Appliance5,2013-10-09,2015-07-10,639.0,12.64,98.12,1.88,412,4.51,33.0,2325.2,306.6
+House 2,Appliance2,2013-09-17,2015-05-28,617.4,24.62,95.31,4.69,344,3.9,96.0,2089.2,605.4
+House 3,Appliance6,2013-09-25,2015-06-02,614.6,11.38,94.34,5.66,677,7.71,65.0,1923.9,543.0
+House 5,Appliance3,2013-09-26,2015-07-06,648.3,9.34,92.1,7.9,779,8.41,43.0,2065.3,288.0

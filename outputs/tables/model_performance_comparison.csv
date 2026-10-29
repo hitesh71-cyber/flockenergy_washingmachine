@@ -1,0 +1,4 @@
+Model,MAE (W),RMSE (W),F1-Score,Precision,Recall,SAE (Energy Error),Energy Error (%),True Energy (kWh),Pred Energy (kWh),Train Time (s)
+Always-Off Baseline,19.91,181.28,0.0,0.0,0.0,1.0,-100.0,44.46,0.0,0.0
+Usage-Profile Baseline,35.48,180.13,0.0992,0.0546,0.5382,0.1144,-11.44,44.46,39.37,0.08
+Gradient Boosted NILM (Ours),23.85,131.85,0.4239,0.3157,0.6447,0.1174,11.74,44.46,49.68,8.66
