@@ -144,22 +144,7 @@ As required by the assignment guidelines, this project utilized **Google Antigra
 - **No Hallucinated Results**: All numbers, tables, and figures reported across the codebase and documentation reflect real computations executed locally against the physical REFIT files.
 - **Physical Plausibility Checks**: Electrical engineering principles (socket fuse ratings, nominal voltages, thermal heating element physics) were manually verified.
 
----
 
-## 7. What Would Be Done Next (Given More Time)
-
-
-
-
-If granted additional engineering bandwidth, the following extensions would be implemented:
-1. **Multi-Household Cross-Validation & Generalization**:
-   - Train on Houses 1, 3, and 5 and evaluate zero-shot transferability on House 2 to measure how well the model generalizes to unseen homes without fine-tuning.
-2. **Deep Sequence-to-Point (Seq2Point) Neural Networks**:
-   - Implement a 1D Convolutional Neural Network with dilated causal convolutions to automatically learn multi-scale appliance temporal signatures directly from raw aggregate sequences.
-3. **Semi-Supervised Hidden Markov Models (HMMs)**:
-   - Explicitly model the discrete transition probabilities between washing machine internal states (Off $\rightarrow$ Heating $\rightarrow$ Tumbling $\rightarrow$ Rinse $\rightarrow$ Spin $\rightarrow$ Off).
-4. **Reactive Power & Voltage Co-Disaggregation**:
-   - If deploying on smart meters with 4-quadrant measurement, incorporate reactive power (VAR) and power factor to cleanly separate inductive motor loads from purely resistive heating elements.
 
 
 
