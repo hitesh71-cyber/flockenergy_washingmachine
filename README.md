@@ -148,6 +148,9 @@ As required by the assignment guidelines, this project utilized **Google Antigra
 
 ## 7. What Would Be Done Next (Given More Time)
 
+
+
+
 If granted additional engineering bandwidth, the following extensions would be implemented:
 1. **Multi-Household Cross-Validation & Generalization**:
    - Train on Houses 1, 3, and 5 and evaluate zero-shot transferability on House 2 to measure how well the model generalizes to unseen homes without fine-tuning.
